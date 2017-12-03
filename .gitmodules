@@ -1,0 +1,3 @@
+[submodule "calendar/cal-heatmap"]
+	path = calendar/cal-heatmap
+	url = https://github.com/wa0x6e/cal-heatmap
