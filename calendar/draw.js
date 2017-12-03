@@ -11,11 +11,12 @@
     xhr.open('GET',endpoint,true);
     xhr.send();
   };
-})();
-
-requestAjax("nebukuro09", function(response){
+  requestAjax("nebukuro09", function(response){
   console.log(response);
 });
+
+})();
+
 
 var cal = new CalHeatMap();
 cal.init({});
