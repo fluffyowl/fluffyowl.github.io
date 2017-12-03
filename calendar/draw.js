@@ -1,7 +1,7 @@
 (function(){
   var requestAjax = function(username, callback) {
     var xhr = new XMLHttpRequest();
-    var endpoint = "http://kenkoooo.com/atcoder-api/problems?user=" + name;
+    var endpoint = "http://kenkoooo.com/atcoder-api/problems?user=" + username;
     xhr.onreadystatechange = function(){
       if (this.readyState==4 && this.status==200) {
         callback(this.response);
@@ -13,7 +13,7 @@
   };
   requestAjax("nebukuro09", function(response){
   console.log(response);
-});
+  });
 
 })();
 
